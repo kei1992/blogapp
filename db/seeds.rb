@@ -16,7 +16,6 @@ emily = User.create!(email: 'emily@example.com', password: 'password')
     )
 end
 
-
 5.times do
     emily.articles.create(
         title: Faker::Lorem.sentence(word_count: 5) ,
